@@ -1,0 +1,24 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "web_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klarkdannn/web_app_to_do_list.git"
+  },
+  "author": "daniil and zhanbolat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klarkdannn/web_app_to_do_list/issues"
+  },
+  "homepage": "https://github.com/klarkdannn/web_app_to_do_list#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
+

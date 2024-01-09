@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import App from './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+let name = document.querySelector('#login');
+let login = document.querySelector('#email');
+let password = document.querySelector('#password');
+let submit = document.querySelector('#submit');
+
+let users = {};
+
+function User(login, email, password) {
+    this.login = login;
+    this.email = email;
+    this.password = password;
 }
 
 export default App;

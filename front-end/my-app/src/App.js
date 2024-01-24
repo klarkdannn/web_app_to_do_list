@@ -1,17 +1,16 @@
-import App from './App.css';
+// App.jsx
 
+import React from 'react';
+import './App.css';
 
-let name = document.querySelector('#login');
-let login = document.querySelector('#email');
-let password = document.querySelector('#password');
-let submit = document.querySelector('#submit');
+const App = () => {
+    // Your React component logic here
 
-let users = {};
-
-function User(login, email, password) {
-    this.login = login;
-    this.email = email;
-    this.password = password;
-}
+    return (
+        <div>
+            Hello
+        </div>
+    );
+};
 
 export default App;
